@@ -1,0 +1,29 @@
+.gradle/
+build/
+**/build/
+.idea/
+*.iml
+local.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+*.log
+backups/
+.env
+.env.*
+keystore.propertiesapp/google-services.json
+
+# Local Firebase configuration
+app/google-services.json
+
+# Old source-code backups
+*.backup
+*.before-*
+
+# Local Firebase configuration
+app/google-services.json
+
+# Old source-code backups
+*.backup
+*.before-*
