@@ -1,6 +1,19 @@
 # Grocery Bazaar
 
+### Android Grocery Browsing Application
+
+![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?logo=firebase&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=white)
+
+**GitHub Repository:** https://github.com/arenihal/GroceryBazar
+
+## Overview
+
 Grocery Bazaar is an Android grocery browsing application developed using Java and XML in Android Studio.
+
+It allows users to register, authenticate, explore grocery categories, and browse products with images and prices.
 
 ## Features
 
@@ -21,19 +34,22 @@ Grocery Bazaar is an Android grocery browsing application developed using Java a
 5. Milk
 6. Snacks
 
-## Technologies Used
+## Technology Stack
 
-- Java
-- XML
-- Android Studio
-- Firebase Authentication
-- RecyclerView
-- Gradle
+| Component | Technology |
+|---|---|
+| Programming Language | Java |
+| User Interface | XML |
+| IDE | Android Studio |
+| Authentication | Firebase Authentication |
+| Product Display | RecyclerView |
+| Build System | Gradle |
+| Version Control | Git and GitHub |
 
 ## Important Java Files
 
 | File | Purpose |
-|------|---------|
+|---|---|
 | MainActivity.java | User login and password reset |
 | RegisterActivity.java | User registration |
 | HomeActivity.java | Grocery category dashboard |
@@ -43,22 +59,48 @@ Grocery Bazaar is an Android grocery browsing application developed using Java a
 
 ## Application Workflow
 
-Register / Login → Home → Select Category → View Products → Logout
-
-## Version
-
-1.1
+```text
+Register / Login
+       |
+       v
+Home Dashboard
+       |
+       v
+Select Grocery Category
+       |
+       v
+View Products and Prices
+       |
+       v
+Logout
+```
 
 ## Installation
 
 1. Download the signed APK from an authorized release source.
-2. Install the APK on a compatible Android device.
-3. Register or log in to access the grocery categories.
+2. Install it on a compatible Android device.
+3. Register or log in.
+4. Explore grocery categories and products.
+
+## Security
+
+- Firebase Authentication handles user sign-in.
+- Login attempt protection is included.
+- Firebase configuration and signing credentials are not included in this repository.
+- Never commit private credentials to GitHub.
+
+## Application Version
+
+**Version 1.1**
 
 ## Developer
 
-ARE NIHAL
+**ARE NIHAL**
 
-## Note
+## Project Status
 
-Firebase configuration and signing credentials are not included in this repository.
+Android grocery browsing application.
+
+---
+
+Developed using Java, XML, Android Studio, and Firebase.
